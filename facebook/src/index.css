@@ -16,3 +16,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#mainFeed::-webkit-scrollbar {
+  display: none;
+}
+
+#mainFeed {
+  scroll-behavior: smooth;
+}
